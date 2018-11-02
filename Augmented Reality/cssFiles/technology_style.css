@@ -44,3 +44,13 @@ dt {
   font-weight: bold;
   text-decoration: underline;
 }
+
+body {
+  text-align: center;
+}
+
+img {
+  border-radius: 100px;
+  border: 10px solid #333;
+  border-color:  black;
+}
