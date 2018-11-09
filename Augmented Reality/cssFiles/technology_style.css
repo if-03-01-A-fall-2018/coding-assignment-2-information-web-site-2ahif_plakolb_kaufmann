@@ -1,4 +1,4 @@
-ul {
+body > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -53,4 +53,12 @@ img {
   border-radius: 100px;
   border: 10px solid #333;
   border-color:  black;
+}
+
+dd > ul {
+list-style-type: circle;
+}
+
+dd > ul >li{
+list-style-type: circle;
 }
