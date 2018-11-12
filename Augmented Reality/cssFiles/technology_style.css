@@ -61,4 +61,6 @@ list-style-type: circle;
 
 dd > ul >li{
 list-style-type: circle;
+clear: both;
+
 }
