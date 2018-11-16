@@ -39,3 +39,7 @@ body > h1 {
 p {
   font-weight: normal;
 }
+
+body {
+    height: 100%;
+}
