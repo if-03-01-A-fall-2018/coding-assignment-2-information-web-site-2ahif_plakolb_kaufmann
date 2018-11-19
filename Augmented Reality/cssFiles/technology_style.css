@@ -64,3 +64,8 @@ dd > ul >li{
 list-style-type: circle;
 clear: both;
 }
+
+h2 {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
