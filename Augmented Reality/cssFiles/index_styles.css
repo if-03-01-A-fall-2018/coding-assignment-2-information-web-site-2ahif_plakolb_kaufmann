@@ -1,23 +1,14 @@
-body {
-    height: 100%;
-}
-
-<div class="parallax">
-  <img src = "images/ms_hololens.jpg">
-</div>
-
 body > article > section {
   font-size: large;
 }
 
-
-body > h1 {
-    text-align: center;
-    color: #333;
-    border-top: 10px solid #333;
-    border-bottom: 10px solid #333;
-    border-radius: 10px;
-    text-shadow: darkgrey 2px 2px 2px;
+h1 {
+  font-size: 2em;
+  clear: both;
+  margin-top: 1px;
+  text-align: center;
+  color: #333;
+  text-shadow: darkgrey 2px 2px 2px;
 }
 
 ul {

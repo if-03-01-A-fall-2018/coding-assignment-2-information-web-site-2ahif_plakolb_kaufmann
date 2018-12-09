@@ -25,12 +25,9 @@ li a:hover {
     background-color: #111;
 }
 
-body > h1 {
+h1 {
     text-align: center;
     color: #333;
-    border-top: 10px solid #333;
-    border-bottom: 10px solid #333;
-    border-radius: 10px;
     text-shadow: darkgrey 2px 2px 2px;
 }
 li a, .dropbtn {
