@@ -1,3 +1,20 @@
+h1 {
+  font-size: 2em;
+  clear: both;
+  margin-top: 1px;
+  text-align: center;
+  color: #333;
+  text-shadow: darkgrey 2px 2px 2px;
+}
+body {
+  font-size: 1.4em;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
 ul {
     list-style-type: none;
     margin: 0;

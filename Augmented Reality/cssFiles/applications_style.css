@@ -9,6 +9,10 @@ ul {
     border-radius: 10px;
 }
 
+body {
+  font-size: 1.4em;
+}
+
 li {
     float: left;
 }

@@ -2,6 +2,10 @@ body > article > section {
   font-size: large;
 }
 
+body {
+  font-size: 1.4em;
+}
+
 h1 {
   font-size: 2em;
   clear: both;
