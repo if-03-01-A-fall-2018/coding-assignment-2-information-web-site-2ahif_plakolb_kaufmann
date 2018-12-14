@@ -58,8 +58,16 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: red}
+.dropdown-content a:hover {
+  background-color: red
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+img {
+  border-radius: 10px;
+  border: 1px solid red;
+  margin: 10px;
 }
