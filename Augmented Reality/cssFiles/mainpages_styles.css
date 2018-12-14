@@ -7,6 +7,16 @@ body {
   text-align: center;
 }
 
+p {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+
+nav {
+  margin-bottom: 50px;
+}
+
 h1 {
   font-size: 2em;
   clear: both;
@@ -70,11 +80,8 @@ li.dropdown {
     display: block;
 }
 
-dd {
-
-}
-
-dt {
-  font-weight: bold;
-  text-decoration: underline;
+img {
+  border-radius: 10px;
+  border: 1px solid red;
+  margin: 10px;
 }

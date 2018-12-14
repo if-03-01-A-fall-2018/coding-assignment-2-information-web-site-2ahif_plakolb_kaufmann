@@ -9,6 +9,10 @@ nav > ul {
     border-radius: 10px;
 }
 
+nav {
+  margin-bottom: 50px;
+}
+
 body {
   font-size: 1.4em;
 }
@@ -26,16 +30,17 @@ h1 {
   text-align: center;
   color: #333;
   text-shadow: darkgrey 2px 2px 2px;
+  margin-bottom: 20px;
 }
 
-dd {
-
+dl {
 }
 
 dt {
   font-weight: bold;
   font-size: 1.1em;
   text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 body {
@@ -51,6 +56,7 @@ img {
 dd > ul {
 list-style-type: circle;
 margin-left: 40%;
+padding: 5px;
 }
 
 dd > ul >li{
@@ -111,5 +117,4 @@ li.dropdown {
 
 h3 {
   text-decoration: underline;
-  text-decoration-style: dotted;
 }
