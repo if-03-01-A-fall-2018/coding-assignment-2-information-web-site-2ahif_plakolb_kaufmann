@@ -13,13 +13,12 @@ p {
 }
 
 nav {
-  margin-bottom: 50px;
+
 }
 
 h1 {
   font-size: 2em;
   clear: both;
-  margin-top: 1px;
   text-align: center;
   color: #333;
   text-shadow: darkgrey 2px 2px 2px;
@@ -31,7 +30,7 @@ nav > ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    border-radius:  10px;
+
 }
 
 li {
@@ -86,5 +85,7 @@ img {
 }
 
 h2 {
-  text-decoration: underline;
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-top: 50px;
 }
