@@ -67,6 +67,8 @@ clear: both;
 h2 {
   text-decoration: underline;
   text-decoration-style: double;
+  margin-top: 150px;
+  clear: both;
 }
 
 
@@ -117,4 +119,10 @@ li.dropdown {
 
 h3 {
   text-decoration: underline;
+  margin-top: 50px;
+  clear: both;
+}
+
+section {
+  margin-bottom: 25px;
 }
