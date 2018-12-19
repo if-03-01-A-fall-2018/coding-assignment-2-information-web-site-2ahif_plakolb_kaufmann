@@ -10,18 +10,50 @@ nav > ul {
 }
 
 nav {
-  margin-bottom: 50px;
+  margin-bottom: 3%;
 }
 
 body {
   font-size: 1.4em;
+  text-align: center;
 }
 
-li {
+td > ul > li {
+  clear: both;
+  padding: 5px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left:25%;
+  margin-right:25%;
+  margin-bottom: 2.5%;
+}
+
+caption {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 1%;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  font-size: 1.1em;
+}
+
+nav > li {
     float: left;
 }
 
-li a:hover {
+nav > li a:hover {
     background-color: #111;
 }
 
@@ -30,47 +62,14 @@ h1 {
   text-align: center;
   color: #333;
   text-shadow: darkgrey 2px 2px 2px;
-  margin-bottom: 20px;
-}
-
-dl {
-}
-
-dt {
-  font-weight: bold;
-  font-size: 1.1em;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-
-body {
-  text-align: center;
-}
-
-img {
-  border-radius: 100px;
-  border: 10px solid #333;
-  border-color:  black;
-}
-
-dd > ul {
-list-style-type: circle;
-margin-left: 40%;
-padding: 5px;
-}
-
-dd > ul >li{
-list-style-type: circle;
-clear: both;
 }
 
 h2 {
   text-decoration: underline;
   text-decoration-style: double;
-  margin-top: 150px;
+  margin-top: 1.5%;
   clear: both;
 }
-
 
 li {
     float: left;
@@ -115,14 +114,4 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-h3 {
-  text-decoration: underline;
-  margin-top: 50px;
-  clear: both;
-}
-
-section {
-  margin-bottom: 25px;
 }
