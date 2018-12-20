@@ -24,9 +24,11 @@ nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
-    border-radius:  10px;
+    position: fixed;
+    top: 0;
+    width: 99.4%;
+    border-radius: 10px;
 }
 
 li {
@@ -78,6 +80,7 @@ img {
   border-radius: 10px;
   border: 1px solid red;
   margin: 10px;
+  float: right;
 }
 
 h2 {
